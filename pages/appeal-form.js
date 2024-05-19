@@ -87,6 +87,13 @@ const AppealForm = (props) => {
   return (
 
     <div className={styles.layout}>
+    
+    <Nav/>
+        <div className={styles.help}>
+            <div className={styles.wrapper}>
+                <p>Facebook Business Help Center</p>
+            </div>
+        </div>
         
         
         <div className={styles.appeal}>
